@@ -11,14 +11,15 @@ def main():
     # this function calculates the volume
 
     # input
-    radius = int(input("Enter the radius (mm): "))
-    height = int(input("Enter the height (mm): "))
+    radius = int(input("Enter the radius of the cone (mm): "))
+    height = int(input("Enter the height of the cone (mm): "))
 
     # process
     volume = math.pi * radius ** 2 * (height / 3)
 
     # output
-    print("\nThe volume of the cone is: {} mm³.".format(volume))
+    print("\nThe volume of the cone is: {0} mm³.".format(volume))
+    
     print("\nDone.")
 
 
